@@ -1,0 +1,12 @@
+name: RentMe
+version: '${project.version}'
+main: com.theswirlingvoid.rentme.Rentme
+api-version: 1.19
+authors: [ TheSwirlingVoid ]
+description: Spice up your server's economy with building, service, and room rentals!
+depend:
+  - Vault
+commands:
+  giveitem:
+    description: Give yourself any item from this plugin.
+    usage: /<command> <item_id>
